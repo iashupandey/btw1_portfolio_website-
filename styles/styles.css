@@ -22,16 +22,16 @@
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
+  --color-primary: #f7bebe;
   --color-secondary: #F56692;
-  --color-white: #454e56;
+  --color-white: #181c21;
   --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #6c7983;
+  --color-grey0: #ef8686;
+  --color-grey-1: #3e474e;
   --color-grey-2: #6c7983;
-  --color-grey-3: #6c7983;
+  --color-grey-3: #505960;
   --color-grey-4: #454e56;
-  --color-grey-5: #f8f8f8;
+  --color-grey-5: #ffcfcf;
   --color-grey-6: #12181b;
 }
 
@@ -961,4 +961,3 @@ section {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
