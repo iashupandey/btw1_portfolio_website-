@@ -962,22 +962,27 @@ section {
   }
 }
 
-
 footer {
-  position:fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #000000;
-  padding: 1rem 0;
+  position: fixed;
   text-align: center;
-  color:white;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 45px;
+  text-shadow: 1px 1px 1px black;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px rgba(255, 255, 255);
 }
 
 footer .copyright a {
   display: inline-block;
-  font-weight: 700;
+  font-weight: 400;
   color: black;
-  background-color: white;
+  background-color: rgb(136, 159, 119);
   padding: 3px;
   width: fit-content;
   border-radius: 5px;
@@ -993,4 +998,3 @@ footer .copyright .logo-bottom {
   width: 30px;
   vertical-align: middle;
 }
-
