@@ -961,3 +961,36 @@ section {
     font-size: 4rem;
   }
 }
+
+
+footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  padding: 1rem 0;
+  text-align: center;
+  color:white;
+}
+
+footer .copyright a {
+  display: inline-block;
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  padding: 3px;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+footer .copyright a:hover {
+  color: #42caff;
+  font-weight: 800;
+}
+
+footer .copyright .logo-bottom {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
