@@ -11,3 +11,10 @@
     document.body.classList.toggle("light-mode");
   });
 })();
+
+// var typed=new Typed(".typing",{
+//   strings:["Web Developer","Web Desinger"],
+//   typespeed:50,
+//   backspeed:50,
+//   loop:true
+// })
