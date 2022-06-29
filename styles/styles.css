@@ -727,19 +727,19 @@ section {
 }
 
 .main-btn2 {
-  border-radius: 30px;
+  border-radius: 35px;
   color: inherit;
   font-weight: 600;
   position: relative;
   border: 1px solid var(--color-secondary);
-  display: flex;
+  /* display: flex; */
   align-self: flex-start;
   align-items: center;
   overflow: hidden;
 }
-.main-btn2 .btn-text2 {
+/* .main-btn2 .btn-text2 {
   padding: 04px 12rem;
-}
+} */
 .main-btn2 .btn-icon2 {
   background-color: var(--color-secondary);
   display: flex;
@@ -756,8 +756,8 @@ section {
   transform: translateX(100%);
   transition: all 0.4s ease-out;
   z-index: -1;
-}
-.main-btn2:hover {
+} 
+ .main-btn2:hover {
   transition: all 0.4s ease-out;
   cursor: pointer;
 }
