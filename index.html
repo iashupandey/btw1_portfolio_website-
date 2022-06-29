@@ -552,7 +552,7 @@
               </div>
             </div>
             <div class="right-contact">
-              <form action="https://formsubmit.co/pashu068@gmail.com" method="POST" class="form">
+              <form action="/" method="GET">
                 <div class="input-control i-c-2">
                   <input
                     id="name"
@@ -568,12 +568,15 @@
                   />
                 </div>
                 <div class="input-control">
-                  <input type="text" required placeholder="ENTER SUBJECT" />
+                  <input 
+                  id="sub"
+                  type="text" 
+                  required placeholder="ENTER SUBJECT" />
                 </div>
                 <div class="input-control">
                   <textarea
                     name=""
-                    id=""
+                    id="area"
                     cols="15"
                     rows="8"
                     placeholder="Message Here..."
@@ -620,11 +623,25 @@
     <!--Start of Script-->
     <script src="app.js"></script>
     <script type="text/javascript">
+    
+
+
       document.getElementById("btn-text1").onclick = fun;
       function fun() {
+       
+
         // Name and Email validation Function.
         var name = document.getElementById("name").value;
+        document.getElementById('name').value=null;  
         var email = document.getElementById("email").value;
+        document.getElementById('email').value=null;
+        var sub = document.getElementById("sub").value; 
+        document.getElementById('sub').value=null;
+        var area = document.getElementById("area").value;
+        document.getElementById('area').value=null;
+
+
+
         var emailReg = "@";
         if (name === "" || email === "") {
           alert("Please fill all fields...!!!!!!");
