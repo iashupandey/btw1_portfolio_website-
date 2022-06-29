@@ -578,18 +578,16 @@
                     rows="8"
                     placeholder="Message Here..."
                   ></textarea>
-                </div>
-                <div class="submit-btn">
-                  <button id="btn-text">Send Message</button>
-                  <p id="demo"></p>
-                </div>
+                </div class="btn-con2" >
+                <a class="main-btn2">
+                 <span class="btn-text2" id="btn-text1">Send message</span>
+                </a>
               </form>
             </div>
           </div>
         </div>
       </section>
     </main>
-
     <div class="controls">
       <div class="control active-btn" data-id="home">
         <i class="fas fa-home"></i>
@@ -623,7 +621,7 @@
     <!--Start of Script-->
     <script src="app.js"></script>
     <script type="text/javascript">
-      document.getElementById("btn-text").onclick = fun;
+      document.getElementById("btn-text1").onclick = fun;
       function fun() {
         // Name and Email validation Function.
         var name = document.getElementById("name").value;

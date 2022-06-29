@@ -189,6 +189,7 @@ section {
 .header-content .left-header .image img:hover {
   transform: scale(1.1);
   transition: all 0.4s ease-in-out;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.8);
 }
 .header-content .right-header {
   display: flex;
@@ -719,6 +720,56 @@ section {
   transition: all 0.4s ease-out;
 }
 
+/* 2nd button */
+.btn-con2 {
+  display: flex;
+  align-self: flex-start;
+}
+
+.main-btn2 {
+  border-radius: 30px;
+  color: inherit;
+  font-weight: 600;
+  position: relative;
+  border: 1px solid var(--color-secondary);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+.main-btn2 .btn-text2 {
+  padding: 04px 12rem;
+}
+.main-btn2 .btn-icon2 {
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.main-btn2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: all 0.4s ease-out;
+  z-index: -1;
+}
+.main-btn2:hover {
+  transition: all 0.4s ease-out;
+  cursor: pointer;
+}
+.main-btn2:hover::before {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  transform: translateX(0);
+  transition: all 0.4s ease-out;
+}
+/*  */
+
 .main-title {
   text-align: center;
 }
@@ -1050,3 +1101,4 @@ footer .copyright .logo-bottom {
   width: 30px;
   vertical-align: middle;
 }
+
