@@ -6,6 +6,15 @@
   header {
     padding: 0 !important;
   }
+  footer{
+    position: static;
+    height: 100px;
+    bottom: 250px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
   .theme-btn {
     width: 50px;
     height: 50px;
@@ -268,5 +277,12 @@
         font-size: 4rem;
       }
     }
+  }
+}
+
+@media screen and (max-width: 660px){
+  .copyright{
+    padding: 7rem 3rem;
+
   }
 }
